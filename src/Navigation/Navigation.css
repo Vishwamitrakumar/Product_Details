@@ -1,0 +1,26 @@
+.desktop-menu {
+     display: block;
+   }
+   
+   .mobile-menu-button {
+     display: none;
+   }
+   
+   /* Responsive behavior */
+   @media (max-width: 768px) {
+     .desktop-menu {
+       display: none;
+
+     }
+     .mobile-menu-button {
+       display: block;
+     }
+   }
+   .sidebar{
+    display: flex;
+    flex-direction: row;
+  
+   }
+   .Item{
+    display: flex;
+   }
