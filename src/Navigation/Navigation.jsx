@@ -20,7 +20,7 @@ const Navigation = () => {
 
   return (
     <Header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0 20px" }}>
-      <div style={{ color: "white", fontSize: "20px", fontWeight: "bold" }}>KycHub  Fronted End </div>
+      <div style={{ color: "white", fontSize: "20px", fontWeight: "bold" }}>KycHub  </div>
 
       <div className="desktop-menu">
         <Menu theme="dark" mode="horizontal" items={menuItems} />
